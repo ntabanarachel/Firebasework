@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="vertical"
+        android:background="#FAFAFA">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pato"
+            android:layout_marginLeft="120dp"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:hint="Email"
+            android:background="#ffffff"
+            android:textColorHint="#2962FF"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/etemail"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="Password"
+            android:background="#ffffff"
+            android:textColorHint="#2962FF"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/etpassword"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="Register"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="20dp"
+            android:background="#90CAF9"
+            android:textColor="#FFFFFF"
+            android:id="@+id/btnregister"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
